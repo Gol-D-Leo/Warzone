@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warxone Gaming Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 font-sans">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-800 shadow-lg border-b border-purple-500">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-purple-500 hover:text-purple-400 transition-colors">Warzone</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-300 hover:text-purple-400 transition-colors">Home</a>
+                    <a href="#services" class="text-gray-300 hover:text-purple-400 transition-colors">Services</a>
+                    <a href="#menu" class="text-gray-300 hover:text-purple-400 transition-colors">Menu</a>
+                    <a href="#games" class="text-gray-300 hover:text-purple-400 transition-colors">Games</a>
+                    <a href="#amenities" class="text-gray-300 hover:text-purple-400 transition-colors">Amenities</a>
+                    <a href="#contact" class="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500">
+        <div class="container mx-auto px-6 py-16">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 text-white mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Welcome to Warzone Gaming</h1>
+                    <p class="text-lg mb-8 text-gray-300">Experience premium gaming in a state-of-the-art facility</p>
+                    <a href="#services" class="bg-purple-500 text-white px-8 py-3 rounded-md hover:bg-purple-600 transition-colors shadow-lg hover:shadow-purple-500/50">Explore Services</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e" alt="Gaming Setup" class="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Photos -->
+    <section id="services" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1601987177651-8edfe6c20009" alt="VIP Room" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-purple-400">VIP Room</h3>
+                        <p class="text-gray-300 mb-4">120,000 L.L</p>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>Premium Gaming Setup</li>
+                            <li>Competitive Games (Valorant, Fortnite)</li>
+                            <li>Private Space</li>
+                            <li>Premium Comfortable Chairs</li>
+                            <li>Exclusive Service</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6" alt="Standard Room" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-purple-400">Standard Room</h3>
+                        <p class="text-gray-300 mb-4">90,000 L.L</p>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>High-Performance Gaming PCs</li>
+                            <li>Various Games Available</li>
+                            <li>Comfortable Setup</li>
+                            <li>Gaming Chairs</li>
+                            <li>Regular Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Food & Drinks</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all">
+                    <h3 class="text-xl font-bold text-purple-400 mb-4">Drinks</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex justify-between"><span>Soft Drinks</span><span>15,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Energy Drinks</span><span>25,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Coffee</span><span>20,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Water</span><span>10,000 L.L</span></li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all">
+                    <h3 class="text-xl font-bold text-purple-400 mb-4">Snacks</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex justify-between"><span>Chips</span><span>20,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Chocolates</span><span>15,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Nuts</span><span>25,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Popcorn</span><span>15,000 L.L</span></li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all">
+                    <h3 class="text-xl font-bold text-purple-400 mb-4">Fast Food</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex justify-between"><span>Pizza</span><span>80,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Burger</span><span>70,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Hot Dog</span><span>50,000 L.L</span></li>
+                        <li class="flex justify-between"><span>Fries</span><span>30,000 L.L</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Showcase -->
+    <section id="games" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Available Games</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="bg-gray-700 rounded-lg overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1614294148960-9aa740632a87" alt="Valorant" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+                    <div class="p-4">
+                        <h3 class="text-purple-400 font-bold">Valorant</h3>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-lg overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1589241062272-c0a000072dfa" alt="Fortnite" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+                    <div class="p-4">
+                        <h3 class="text-purple-400 font-bold">Fortnite</h3>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-lg overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1616356607338-fd87169ecf1a" alt="CS:GO" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+                    <div class="p-4">
+                        <h3 class="text-purple-400 font-bold">CS:GO</h3>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-lg overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5" alt="League of Legends" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+                    <div class="p-4">
+                        <h3 class="text-purple-400 font-bold">League of Legends</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Our Amenities</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="relative overflow-hidden rounded-lg group">
+                    <img src="https://images.unsplash.com/photo-1600861194942-f883de0dfe96" alt="Gaming Area" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-purple-900 p-4">
+                        <h3 class="text-white text-xl font-bold">Gaming Area</h3>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg group">
+                    <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575" alt="TV Lounge" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-purple-900 p-4">
+                        <h3 class="text-white text-xl font-bold">TV Lounge</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gradient-to-r from-purple-600 to-blue-600">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-extrabold text-white mb-8">Contact Us</h2>
+        
+        <!-- Instagram Link -->
+        <div class="mb-8">
+            <a href="https://www.instagram.com/yre3n" target="_blank" class="flex items-center justify-center space-x-3 bg-gray-800 hover:bg-gray-700 p-4 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="text-white font-medium text-lg">Follow us on Instagram: @yre3n</span>
+            </a>
+        </div>
+
+        <!-- Location -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-bold text-white mb-2">Location</h3>
+            <p class="text-gray-200 text-lg">123 Gaming Street, City</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-bold text-white mb-2">Contact Info</h3>
+            <p class="text-gray-200 text-lg">Phone: <a href="tel:+1234567890" class="text-purple-300 hover:underline">+1 234 567 890</a></p>
+            <p class="text-gray-200 text-lg">Email: <a href="mailto:info@warxone.com" class="text-purple-300 hover:underline">info@warxone.com</a></p>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8 border-t border-purple-500">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Warzone Gaming Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
